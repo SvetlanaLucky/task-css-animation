@@ -4,9 +4,9 @@
     <list default="true" id="945ac393-b64d-4f7e-9259-65a450b37a65" name="Default" comment="" />
     <ignored path="task-css.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/index.html" changelist="945ac393-b64d-4f7e-9259-65a450b37a65" time="1404898275280" ignored="false" />
+    <file path="/index.html" changelist="945ac393-b64d-4f7e-9259-65a450b37a65" time="1404935761744" ignored="false" />
     <file path="/dummy.xml" changelist="945ac393-b64d-4f7e-9259-65a450b37a65" time="1404819863387" ignored="false" />
-    <file path="/cube.css" changelist="945ac393-b64d-4f7e-9259-65a450b37a65" time="1404899335901" ignored="false" />
+    <file path="/cube.css" changelist="945ac393-b64d-4f7e-9259-65a450b37a65" time="1404936409560" ignored="false" />
     <file path="D:/examp/cube1/style.css" changelist="945ac393-b64d-4f7e-9259-65a450b37a65" time="1404898333513" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -26,13 +26,13 @@
     <favorites_list name="task-css" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.31233123">
+    <splitter split-orientation="horizontal" split-proportion="0.4372177">
       <split-first>
         <leaf>
           <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="19" column="22" selection-start="617" selection-end="617" vertical-scroll-proportion="0.546595">
+                <state line="26" column="34" selection-start="884" selection-end="884" vertical-scroll-proportion="0.7634783">
                   <folding />
                 </state>
               </provider>
@@ -54,7 +54,7 @@
           <file leaf-file-name="cube.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/stylesheets/cube.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="27" column="13" selection-start="425" selection-end="425" vertical-scroll-proportion="0.59799">
+                <state line="95" column="59" selection-start="2173" selection-end="2173" vertical-scroll-proportion="0.76870745">
                   <folding />
                 </state>
               </provider>
@@ -83,7 +83,7 @@
     <option name="x" value="54" />
     <option name="y" value="-8" />
     <option name="width" value="1320" />
-    <option name="height" value="780" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -126,7 +126,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/!Programming/practice web" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
@@ -155,14 +155,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="-8" width="1320" height="780" extended-state="0" />
+    <frame x="54" y="-8" width="1320" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11844197" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12321144" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -240,6 +240,48 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="35" selection-start="193" selection-end="193" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/cube.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="18" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="12" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/cube.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="18" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="22" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stylesheets/cube.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="18" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="22" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
           <folding />
         </state>
@@ -268,14 +310,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="617" selection-end="617" vertical-scroll-proportion="0.546595">
+        <state line="26" column="34" selection-start="884" selection-end="884" vertical-scroll-proportion="0.7634783">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/stylesheets/cube.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="13" selection-start="425" selection-end="425" vertical-scroll-proportion="0.59799">
+        <state line="95" column="59" selection-start="2173" selection-end="2173" vertical-scroll-proportion="0.76870745">
           <folding />
         </state>
       </provider>

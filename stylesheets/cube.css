@@ -76,6 +76,15 @@ figure{ /* Как вариант можно div. Или нужно? */
         -webkit-transform:  rotateX(360deg) rotate(360deg) translateX(-400px) rotate(-360deg) ;
     }
 }
+@-webkit-keyframes rotateDiagon {
+    from{
+        -webkit-transform: rotate3d(1,1,0,-0deg) translateX(-150px) rotate3d(1,1,0,0deg) rotate3d(1,1,1,0deg);
+    }
+    to{
+        -webkit-transform: rotate3d(1,1,0,-360deg) translateX(-150px) rotate3d(1,1,0,360deg)rotate3d(1,1,1,360deg);
+    }
+}
+
 /*end ways of animation */
 
 
@@ -84,10 +93,12 @@ figure{ /* Как вариант можно div. Или нужно? */
     -webkit-animation: rotatedAround 4s infinite linear;
 }
 .go-eight{
-    -webkit-animation: rotatedEight 8s infinite linear;
+    -webkit-animation: rotatedEight 8s infinite ease-in-out;
 }
 
-
+.go-diagon{
+    -webkit-animation: rotateDiagon 4s infinite ease;
+}
 /* invisible backfaces for istance*/
 .invis-back >*{
     -webkit-backface-visibility: hidden;
