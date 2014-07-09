@@ -11,7 +11,7 @@
     height: 100px;
     margin: 200px auto;
     -webkit-perspective: 1000px;
-    border:1px solid #000;
+    /*border:1px solid #000;*/
 }
 
 
@@ -25,7 +25,7 @@
 figure{ /* Как вариант можно div. Или нужно? */
     width: 96px;
     height: 96px;
-    /*border: 2px solid black;*/
+    border: 1px solid black;
     text-align: center;
     line-height: 96px;
     position: absolute;
