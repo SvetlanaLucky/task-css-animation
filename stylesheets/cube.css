@@ -1,58 +1,94 @@
+/* instead of reset.css*/
 *{
     margin: 0;
     padding: 0;
 }
-@-webkit-keyframes spinCubeItself {
-    from {
-        -webkit-transform:  rotate(0) translateX(-150px) rotate(-0) rotateX(0);
-    }
-    to   {
-        -webkit-transform:  rotate(360deg) translateX(-150px) rotate(-360deg) rotateX(360deg);
-    }
-}
+
+
+/* 3d scene */
 .container{
     width: 100px;
     height: 100px;
     margin: 200px auto;
     -webkit-perspective: 1000px;
-    border: 1px solid red;
-    border-radius: 50px;
+    border:1px solid #000;
 }
+
+
 .cube{
     width: 100px;
     height: 100px;
     -webkit-transform-style: preserve-3d;
-    /*-webkit-transform: translateZ(-50px);*/
-    -webkit-animation: spinCubeItself 4s infinite linear;
-
 }
-figure{
+
+/* sides of cube */
+figure{ /* Как вариант можно div. Или нужно? */
     width: 96px;
     height: 96px;
     border: 2px solid black;
+    text-align: center;
+    line-height: 96px;
     position: absolute;
-}
+    opacity: 0.5;
+    }
 .front{
     -webkit-transform: rotateX( 0deg ) translateZ( 50px );
-    background-color: rgba(255,0,0,0.5);
+    background-color: lightgreen;
 }
 .back{
     -webkit-transform: rotateX( 180deg ) translateZ( 50px );
-    background-color: rgba(0,255,0,0.5);
+    background-color: lightblue;
 }
 .right{
     -webkit-transform: rotateY( 90deg ) translateZ( 50px );
-    background-color: rgba(0,0,255,0.5);
+    background-color: yellow;
 }
 .left{
     -webkit-transform: rotateY( -90deg ) translateZ( 50px );
-    background-color: rgba(127,127,0,0.5);
+    background-color: green;
 }
 .top{
     -webkit-transform: rotateX( 90deg ) translateZ( 50px );
-    background-color: rgba(0,127,127,0.5);
+    background-color: blue;
 }
 .bottom{
     -webkit-transform: rotateX( -90deg ) translateZ( 50px );
-    background-color: rgba(127,0,127,0.5);
+    background-color: darkmagenta;
+}
+/* end of sides*/
+
+
+/*some ways of animation */
+@-webkit-keyframes rotatedAround {
+    from {
+        -webkit-transform:  rotate(-0) translateX(-200px) rotate(0) rotateX(0);
+    }
+    to   {
+        -webkit-transform:  rotate(-360deg) translateX(-200px) rotate(360deg) rotateX(360deg);
+    }
+}
+
+@-webkit-keyframes rotatedEight {
+    from {
+        -webkit-transform:  rotateX(0) rotate(0) translateX(-400px) rotate(-0) ;
+    }
+    to   {
+        -webkit-transform:  rotateX(360deg) rotate(360deg) translateX(-400px) rotate(-360deg) ;
+    }
+}
+/*end ways of animation */
+
+
+/* animated classes */
+.go-around{
+    -webkit-animation: rotatedAround 4s infinite linear;
+}
+.go-eight{
+    -webkit-animation: rotatedEight 8s infinite linear;
+}
+
+
+/* invisible backfaces for istance*/
+.invis-back >*{
+    -webkit-backface-visibility: hidden;
 }
